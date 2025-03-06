@@ -1,0 +1,11 @@
+{
+  "meta_awareness_base": 0.7,
+  "meta_awareness_noise": 0.05,
+  "habituation_recovery": 0.3,
+  "average_meta_awareness_by_state": {
+    "breath_control": 0.75,
+    "mind_wandering": 0.5597307366112777,
+    "meta_awareness": 0.9000000000000001,
+    "redirect_breath": 0.8362628474679533
+  }
+}

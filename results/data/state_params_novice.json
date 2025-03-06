@@ -1,0 +1,64 @@
+{
+  "dwell_times": {
+    "breath_control": [
+      10,
+      15
+    ],
+    "mind_wandering": [
+      20,
+      30
+    ],
+    "meta_awareness": [
+      2,
+      5
+    ],
+    "redirect_breath": [
+      2,
+      5
+    ]
+  },
+  "transition_probabilities": {
+    "breath_control": {
+      "breath_control": 0.0,
+      "mind_wandering": 1.0,
+      "meta_awareness": 0.0,
+      "redirect_breath": 0.0
+    },
+    "mind_wandering": {
+      "breath_control": 0.0,
+      "mind_wandering": 0.0,
+      "meta_awareness": 1.0,
+      "redirect_breath": 0.0
+    },
+    "meta_awareness": {
+      "breath_control": 0.0,
+      "mind_wandering": 0.0,
+      "meta_awareness": 0.0,
+      "redirect_breath": 1.0
+    },
+    "redirect_breath": {
+      "breath_control": 0.75,
+      "mind_wandering": 0.25,
+      "meta_awareness": 0.0,
+      "redirect_breath": 0.0
+    }
+  },
+  "state_duration_stats": {
+    "breath_control": {
+      "mean_duration": 12.75,
+      "std_duration": 1.0897247358851685
+    },
+    "mind_wandering": {
+      "mean_duration": 24.2,
+      "std_duration": 1.8330302779823362
+    },
+    "meta_awareness": {
+      "mean_duration": 3.5,
+      "std_duration": 0.5
+    },
+    "redirect_breath": {
+      "mean_duration": 3.5,
+      "std_duration": 0.5
+    }
+  }
+}
